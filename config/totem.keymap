@@ -34,7 +34,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <6 7>;
             bindings = <&kp ESC>;
         };
 
@@ -50,12 +50,22 @@
 
         scroll_up {
             bindings = <&msc SCRL_UP>;
-            key-positions = <6 7>;
+            key-positions = <3 2>;
         };
 
         scroll_down {
             bindings = <&msc SCRL_DOWN>;
-            key-positions = <27 28>;
+            key-positions = <24 23>;
+        };
+
+        scroll_right {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <14 13>;
+        };
+
+        scroll_left {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <10 11>;
         };
     };
 
