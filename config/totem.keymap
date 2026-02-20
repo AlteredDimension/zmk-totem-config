@@ -98,10 +98,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp SINGLE_QUOTE        &kp COMMA  &kp PERIOD  &kp P           &kp W        &kp F                 &kp G  &kp C      &kp R  &kp L
-               &kp A                   &kp O      &kp E       &kp U           &kp I        &kp D                 &kp H  &kp T      &kp N  &kp S
-&kp BACKSLASH  &mt LEFT_GUI SEMICOLON  &kp Q      &kp J       &kp K           &kp X        &kp B                 &kp M  &kp Y      &kp V  &kp Z  &kp MINUS
-                                                  &mkp LCLK   &kp LEFT_SHIFT  &kp SPACE    &mt DELETE BACKSPACE  &mo 1  &kp RCTRL
+                        &kp SINGLE_QUOTE        &kp COMMA  &kp PERIOD  &kp P           &kp W        &kp F                 &kp G  &kp C      &kp R  &kp L
+                        &kp A                   &kp O      &kp E       &kp U           &kp I        &kp D                 &kp H  &kp T      &kp N  &kp S
+&mt LEFT_ALT BACKSLASH  &mt LEFT_GUI SEMICOLON  &kp Q      &kp J       &kp K           &kp X        &kp B                 &kp M  &kp Y      &kp V  &kp Z  &kp MINUS
+                                                           &mkp LCLK   &kp LEFT_SHIFT  &kp SPACE    &mt DELETE BACKSPACE  &mo 1  &kp RCTRL
             >;
         };
 
